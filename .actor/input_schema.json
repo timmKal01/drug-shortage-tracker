@@ -1,0 +1,31 @@
+{
+    "title": "Drug Shortage Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "genericName": {
+            "title": "Generic drug name",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Filter to shortages matching this generic drug name (partial match, case-insensitive). Leave blank to return all current shortages."
+        },
+        "status": {
+            "title": "Status filter",
+            "type": "string",
+            "editor": "select",
+            "description": "Filter by shortage status. Leave blank for all statuses.",
+            "enum": ["", "Current", "To Be Discontinued", "Resolved"],
+            "enumTitles": ["All statuses", "Current", "To Be Discontinued", "Resolved"],
+            "default": ""
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of shortage records to return, most recently posted first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 500
+        }
+    }
+}
