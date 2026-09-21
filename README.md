@@ -53,6 +53,10 @@ Direct calls to the FDA's official openFDA drug shortages endpoint (`api.fda.gov
 
 Retries with exponential backoff on transient failures (rate limits, 5xx errors), the same defensive fetch pattern used across every actor in this portfolio, so a single upstream hiccup doesn't fail your run.
 
+## Pricing note
+
+Billed per **search**, not per shortage record returned, one charge whether the search returns 1 record or several hundred.
+
 ## Related products
 
 - [Medical Device Adverse Event Tracker](https://github.com/timmKal01/medical-device-adverse-event-tracker): a different openFDA dataset (device adverse events, not shortages)
