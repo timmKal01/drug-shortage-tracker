@@ -1,5 +1,9 @@
 # Drug Shortage Tracker: Live openFDA Shortage Data
 
+Search current and recent US drug shortages by generic drug name and/or status, straight from the FDA's official openFDA shortage database, most recently posted first. Find out which drugs are affected, why, who manufactures them, and when the shortage was posted, without checking the FDA site by hand.
+
+Here's a real record it returns:
+
 ```json
 {
   "genericName": "Sodium Chloride",
@@ -18,8 +22,6 @@
   "ndc": "0409-7101-66"
 }
 ```
-
-That's a real record. Give it a generic drug name and/or status, get back current and recent US drug shortages straight from the FDA's own shortage database, most recently posted first.
 
 ## Who this is for
 
