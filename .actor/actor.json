@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "drug-shortage-tracker",
-    "title": "Drug Shortage Tracker: Live openFDA Shortage Data",
+    "title": "Drug Shortage Tracker: Live FDA Shortage List",
     "description": "Search current and recent US drug shortages by generic name or status, straight from the FDA's official openFDA shortage database. For hospital and retail pharmacy supply chain teams, and healthcare procurement checking which drugs are affected before they run out.",
     "version": "0.1",
     "meta": {
