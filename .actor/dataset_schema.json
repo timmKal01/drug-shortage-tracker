@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "genericName",
+                    "brandNames",
+                    "manufacturer",
+                    "status",
+                    "dosageForm",
+                    "presentation",
+                    "therapeuticCategory",
+                    "reason",
+                    "contactInfo",
+                    "initialPostingDate",
+                    "updateDate",
+                    "route"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "genericName": {
+                        "label": "Generic name",
+                        "format": "text"
+                    },
+                    "brandNames": {
+                        "label": "Brand names",
+                        "format": "array"
+                    },
+                    "manufacturer": {
+                        "label": "Manufacturer",
+                        "format": "text"
+                    },
+                    "status": {
+                        "label": "Status",
+                        "format": "text"
+                    },
+                    "dosageForm": {
+                        "label": "Dosage form",
+                        "format": "text"
+                    },
+                    "presentation": {
+                        "label": "Presentation",
+                        "format": "text"
+                    },
+                    "therapeuticCategory": {
+                        "label": "Therapeutic category",
+                        "format": "array"
+                    },
+                    "reason": {
+                        "label": "Reason",
+                        "format": "text"
+                    },
+                    "contactInfo": {
+                        "label": "Contact info",
+                        "format": "text"
+                    },
+                    "initialPostingDate": {
+                        "label": "Initial posting date",
+                        "format": "text"
+                    },
+                    "updateDate": {
+                        "label": "Update date",
+                        "format": "text"
+                    },
+                    "route": {
+                        "label": "Route",
+                        "format": "array"
+                    }
+                }
+            }
+        }
+    }
+}
